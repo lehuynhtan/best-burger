@@ -1,0 +1,25 @@
+#Lienhe {
+	padding-top: 2%;
+	padding-bottom: 1.2%;
+	background-color: #ff9800;
+}
+
+#Lienhe div div h6 {
+	color: #000;
+	font-size: 1em;
+  	width: 100%;
+  	height: 50%;
+}
+
+#fanpage div a{
+	display: inline;
+	font-size: 1em;
+}
+#fanpage div h6 {
+	display: inline;
+	vertical-align: top;
+	font-size: 1em;
+}
+#fanpage div {
+	align-content: right;
+}

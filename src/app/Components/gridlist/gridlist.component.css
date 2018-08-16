@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.project-filter-buttons {
+  text-align: center;
+}
+
+.project-filter-buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: yellow;
+  cursor: pointer;
+  outline: none;
+}
+
+.project-filter-buttons button:hover {
+  background: orange;
+}
+
+button.clear-button {
+  border: 1px solid grey;
+  background: #fff;
+}
+
+button.clear-button:hover {
+  background: #ddd;
+}
+
+.project-filter-buttons button.active-filter {
+  background: #1ccccd;
+}
+
+.projects-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  min-height: 400px;
+  min-width: 250px;
+  width: 31%;
+  margin: 10px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project > .badges {
+  margin: 5px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project > .badges > span {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px 5px 20px;
+  position: relative;
+  margin: 5px;
+}
+
+.project > .badges > span:before {
+  position: absolute;
+  content: '°';
+  font-size: 30px;
+  top: 4px;
+  left: 5px;
+}
