@@ -31,13 +31,11 @@
     margin-bottom: 20px;
   }
 }
-#carousel-2 {
-  margin-top: auto;
-}
 
 #Dichvu {
 	padding-bottom: 3%;
   background-color: #000;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #Dichvu h2 {

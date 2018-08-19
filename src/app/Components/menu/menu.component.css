@@ -18,6 +18,7 @@
 	margin-bottom: 20px;
     color: #ff9800;
     font-size: 5vw;
+    font-family: 'Roboto Mono', monospace;
 }
 #Menu div button {
 	margin: 10px;
@@ -26,11 +27,12 @@
     text-align: center;
     display: inline-block;
     font-size: 1em;
-    font-weight: bolder;
+    font-weight: lighter;
     border-radius: 20px;
     color: #ff9800;
     border-color: #ff9800;
     background-color: #000;
+    font-family: 'Roboto Mono', monospace;
 }
 #Menu div button:hover,
 #Menu div button:active,
@@ -131,4 +133,5 @@ p {
     margin-bottom: 40px;
     width: 77vh;  
     height: 14em;
+    font-family: 'Roboto Mono', monospace;
 }
