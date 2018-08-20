@@ -57,9 +57,4 @@ nav div div ul li a:after {
   transform: translateY(1px);
   filter: saturate(150%);
 }
-#navicon {
-  margin-right: 0.7em;
-  border-radius: 10em;
-  max-height: 2em;
-  display: inline;
-}
+

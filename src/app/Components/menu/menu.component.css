@@ -32,7 +32,7 @@
     color: #ff9800;
     border-color: #ff9800;
     background-color: #000;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
 }
 #Menu div button:hover,
 #Menu div button:active,
@@ -129,9 +129,21 @@ p {
 .row {
     margin-top: 30px;  
 }
-.col-md-3 {
+.col-md-4 {
     margin-bottom: 40px;
     width: 77vh;  
     height: 14em;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+}
+.card-title {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 600px){
+  #myBtnContainer {
+    width: 100%;
+  }
+  #myBtnContainer .btn {
+    font-size: 3.7vw;
+  }
 }

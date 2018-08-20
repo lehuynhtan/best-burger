@@ -61,3 +61,10 @@ div div div div h3 {
   color: #ff9800;
   font-size: 1.4em;
 }
+
+@media screen and (max-width: 600px) {
+  #hide{ display: none; }
+  div div div div h3 {
+    font-size: 3.7vw;
+  }
+}
