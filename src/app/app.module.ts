@@ -8,7 +8,7 @@ import { ServiceComponent } from './Components/service/service.component';
 import { MenuComponent } from './Components/menu/menu.component';
 import { GridlistComponent } from './Components/gridlist/gridlist.component';
 import { ContactComponent } from './Components/contact/contact.component';
-import { InfoComponent } from './info/info.component';
+import { InfoComponent } from './Components/info/info.component';
 
 @NgModule({
   declarations: [
